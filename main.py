@@ -12,7 +12,7 @@ with open(input_img, "rb") as image_file:
     encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
 
 # Download the CSV file and past the path of the CSV file which is in your sys.
-downloaded_csv_path = "/Users/hardikchhipa/Desktop/NLP/Projects/spooky-author-identification/train.csv"
+downloaded_csv_path = "csv_path"
 train = pd.read_csv(downloaded_csv_path)
 
 
